@@ -1,4 +1,5 @@
 # напиши здесь код основного приложения и первого экрана
+from second_win import *
 from instr import *
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import (

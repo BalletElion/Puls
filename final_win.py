@@ -16,10 +16,10 @@ from PyQt5.QtWidgets import (
 class FinalWin(QWidget):
     def __init__(self, age, P1, P2, P3):
         super().__init__()
-        self.age = age
-        self.P1 = P1
-        self.P2 = P2
-        self.P3 = P3
+        self.age = int(age)
+        self.P1 = int(P1)
+        self.P2 = int(P2)
+        self.P3 = int(P3)
         self.set_appear()
         self.initUI()
         #self.connects()
@@ -127,6 +127,3 @@ class FinalWin(QWidget):
                 #высокий
                 return txt_res5
 
-app = QApplication([])
-wn = FinalWin(14, 50, 60, 40)
-app.exec_() 
