@@ -34,6 +34,7 @@ class FinalWin(QWidget):
         self.layout = QVBoxLayout()
         self.layout.addWidget(self.index, alignment = Qt.AlignCenter)
         self.layout.addWidget(self.result1, alignment = Qt.AlignCenter)
+        self.setStyleSheet('background: #dab3ff;')
         self.setLayout(self.layout)
 
     def rufie (self, age, P1, P2, P3):
