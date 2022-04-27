@@ -34,6 +34,8 @@ class MainWin(QWidget):
         self.layout.addWidget(self.hello_text, alignment = Qt.AlignCenter)
         self.layout.addWidget(self.instruction, alignment = Qt.AlignCenter)
         self.layout.addWidget(self.button, alignment = Qt.AlignCenter)
+        self.setStyleSheet('background: #66ffc2;')
+        #self.setStyleSheet('button: #000000;')
         self.setLayout(self.layout)
 
     def connects(self):
